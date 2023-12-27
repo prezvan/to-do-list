@@ -1,0 +1,17 @@
+@import url("/fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "IRANYekanX";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 242, 247);
+}
+
+
+input:focus {
+    outline: none;
+  }
